@@ -9,6 +9,7 @@ class Libros:
 
 lista_libros=[]
 def agregar_libro():
+    print("\n--AGREGAR LIBRO--")
     titulo=input("Ingrese el titulo del libro: ")
     autor=input("Ingrese el autor del libro: ")
     try:
@@ -37,6 +38,7 @@ def mostrar_libros():
             contador+=1
 
 def eliminar_libro():
+    print("\n--ELIMINAR LIBRO--")
     libro_buscado=input("Ingrese el nombre del libro que desea eliminar: ")
     encontrado=False
     for libro in lista_libros:
