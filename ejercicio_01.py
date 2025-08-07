@@ -61,10 +61,13 @@ while True:
     option=int(input("\nSeleccione una opción del menú (1-4"))
     match option:
         case "1":
-            print()
+            agregar_libro()
         case "2":
-            print()
+            mostrar_libros()
         case "3":
-            print()
+            eliminar_libro()
         case "4":
-            print()
+            print("Gracias por usar el programa.")
+            break
+        case _:
+            print("Error al seleccionar una opción, inténtelo de nuevo")
