@@ -1,3 +1,13 @@
+class Libros:
+    def __init__(self, titulo, autor, anio):
+        self.titulo = titulo
+        self.autor = autor
+        self.anio = anio
+
+lista_libros=[]
+
+
+
 def menu():
     print("1.Agregar libros")
     print("2.Mostrar lista de libros")
