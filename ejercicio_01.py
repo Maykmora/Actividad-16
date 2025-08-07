@@ -6,6 +6,7 @@ class Libros:
 
 lista_libros=[]
 
+def mostrar_libros():
 
 
 def menu():
