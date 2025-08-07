@@ -37,7 +37,6 @@ def mostrar_libros():
             contador+=1
 
 
-
 def menu():
     print("1.Agregar libros")
     print("2.Mostrar lista de libros")
